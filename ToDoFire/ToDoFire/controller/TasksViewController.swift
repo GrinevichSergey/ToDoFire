@@ -12,7 +12,9 @@ class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var tableview: UITableView!
     
-    @IBAction func addTaped(_ sender: UIBarButtonItem){
+    @IBAction func addTaped(_ sender: UIBarButtonItem)
+    {
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
