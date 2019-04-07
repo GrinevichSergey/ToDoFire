@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/g_serega/Documents/MyAppXcode/ToDoFire/ToDoFire/ToDoFire/controller/loginViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:ToDoFire.xcodeproj">
    </FileRef>
    <FileRef

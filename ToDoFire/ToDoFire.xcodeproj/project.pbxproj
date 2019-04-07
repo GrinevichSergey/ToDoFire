@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		372C14DE225A762D00CAEB7B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 372C14DD225A762D00CAEB7B /* .gitignore */; };
 		372C14E0225A80EE00CAEB7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372C14DF225A80EE00CAEB7B /* GoogleService-Info.plist */; };
+		372C14E4225A95AA00CAEB7B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C14E3225A95AA00CAEB7B /* loginViewController.swift */; };
 		3765B44B2258D3650015853D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765B44A2258D3650015853D /* AppDelegate.swift */; };
-		3765B44D2258D3650015853D /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765B44C2258D3650015853D /* loginViewController.swift */; };
 		3765B4502258D3650015853D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3765B44E2258D3650015853D /* Main.storyboard */; };
 		3765B4552258D3680015853D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3765B4542258D3680015853D /* Assets.xcassets */; };
 		3765B4582258D3680015853D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3765B4562258D3680015853D /* LaunchScreen.storyboard */; };
@@ -22,9 +22,9 @@
 		171C2F10D7125CE5E2223F8C /* Pods_ToDoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		372C14DD225A762D00CAEB7B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		372C14DF225A80EE00CAEB7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		372C14E3225A95AA00CAEB7B /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = loginViewController.swift; path = /Users/g_serega/Documents/MyAppXcode/ToDoFire/ToDoFire/ToDoFire/controller/loginViewController.swift; sourceTree = "<absolute>"; };
 		3765B4472258D3650015853D /* ToDoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3765B44A2258D3650015853D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3765B44C2258D3650015853D /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		3765B44F2258D3650015853D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3765B4542258D3680015853D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3765B4572258D3680015853D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +98,8 @@
 		3765B4622258F9940015853D /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				3765B44C2258D3650015853D /* loginViewController.swift */,
 				3765B45F2258F8F20015853D /* TasksViewController.swift */,
+				372C14E3225A95AA00CAEB7B /* loginViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -242,8 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3765B4602258F8F20015853D /* TasksViewController.swift in Sources */,
-				3765B44D2258D3650015853D /* loginViewController.swift in Sources */,
 				3765B44B2258D3650015853D /* AppDelegate.swift in Sources */,
+				372C14E4225A95AA00CAEB7B /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

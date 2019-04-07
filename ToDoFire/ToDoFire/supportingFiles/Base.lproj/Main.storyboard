@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="loginViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="loginViewController" customModule="ToDoFire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,7 +72,6 @@
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="loginButtonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PNh-7J-EyB"/>
                                                     <segue destination="IWF-7E-8eC" kind="show" identifier="taskssegue" id="9vY-8G-qZa"/>
                                                 </connections>
                                             </button>
@@ -83,9 +82,6 @@
                                                 <state key="normal" title="Register">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="registerButtonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vw6-wR-LXi"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -115,11 +111,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="emailLabel" destination="Aea-am-hxw" id="5b5-Rg-dW1"/>
-                        <outlet property="loginLabel" destination="eX5-Qs-YSk" id="fSp-8t-7mB"/>
-                        <outlet property="passwordLabel" destination="Jpl-l7-5yj" id="iNQ-Cg-fhx"/>
-                        <outlet property="registerButton" destination="UDC-Qd-y7K" id="FpL-nx-vpD"/>
-                        <outlet property="warnLabel" destination="SmC-vn-22E" id="pdZ-5Y-HxQ"/>
+                        <outlet property="etst" destination="SmC-vn-22E" id="1O5-VU-XSX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
