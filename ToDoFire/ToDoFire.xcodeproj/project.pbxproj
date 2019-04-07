@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372C14DE225A762D00CAEB7B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 372C14DD225A762D00CAEB7B /* .gitignore */; };
 		3765B44B2258D3650015853D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765B44A2258D3650015853D /* AppDelegate.swift */; };
 		3765B44D2258D3650015853D /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765B44C2258D3650015853D /* loginViewController.swift */; };
 		3765B4502258D3650015853D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3765B44E2258D3650015853D /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372C14DD225A762D00CAEB7B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3765B4472258D3650015853D /* ToDoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3765B44A2258D3650015853D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3765B44C2258D3650015853D /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		3765B43E2258D3650015853D = {
 			isa = PBXGroup;
 			children = (
+				372C14DD225A762D00CAEB7B /* .gitignore */,
 				3765B4492258D3650015853D /* ToDoFire */,
 				3765B4482258D3650015853D /* Products */,
 			);
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372C14DE225A762D00CAEB7B /* .gitignore in Resources */,
 				3765B4582258D3680015853D /* LaunchScreen.storyboard in Resources */,
 				3765B4552258D3680015853D /* Assets.xcassets in Resources */,
 				3765B4502258D3650015853D /* Main.storyboard in Resources */,
