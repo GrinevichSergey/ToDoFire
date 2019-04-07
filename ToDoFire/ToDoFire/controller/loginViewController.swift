@@ -24,8 +24,7 @@ class loginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("test git hub")
-        print("test push git hub")
+
     }
 
 
