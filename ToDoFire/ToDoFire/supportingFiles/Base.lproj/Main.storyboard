@@ -117,7 +117,7 @@
                         <outlet property="emailText" destination="Aea-am-hxw" id="baj-Er-37i"/>
                         <outlet property="passwordText" destination="Jpl-l7-5yj" id="irg-Kg-VS5"/>
                         <outlet property="warnLabel" destination="SmC-vn-22E" id="1cd-F4-wlE"/>
-                        <segue destination="IWF-7E-8eC" kind="show" identifier=" " id="5Fm-fi-WfM"/>
+                        <segue destination="IWF-7E-8eC" kind="showDetail" identifier="taskssegue" id="5Fm-fi-WfM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -163,6 +163,11 @@
                         <viewLayoutGuide key="safeArea" id="lAW-Kc-RLX"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tasks" id="hFx-vM-b09">
+                        <barButtonItem key="leftBarButtonItem" title="Sing Out" id="11R-rW-5CB">
+                            <connections>
+                                <action selector="singOutTapped:" destination="0kS-g7-PXC" id="jvk-TR-KKB"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="pAm-ky-tzb">
                             <connections>
                                 <action selector="addTaped:" destination="0kS-g7-PXC" id="ggz-J7-zdQ"/>
@@ -175,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yke-3s-4xQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1777" y="133"/>
+            <point key="canvasLocation" x="1839" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zfZ-AM-7Jn">

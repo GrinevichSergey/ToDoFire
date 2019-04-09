@@ -10,6 +10,8 @@
 		372C14DE225A762D00CAEB7B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 372C14DD225A762D00CAEB7B /* .gitignore */; };
 		372C14E0225A80EE00CAEB7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372C14DF225A80EE00CAEB7B /* GoogleService-Info.plist */; };
 		372C14EC225A977D00CAEB7B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C14EB225A977D00CAEB7B /* RegisterViewController.swift */; };
+		372C14EE225B8C6D00CAEB7B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C14ED225B8C6D00CAEB7B /* Task.swift */; };
+		372C14F0225B8C7D00CAEB7B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C14EF225B8C7D00CAEB7B /* User.swift */; };
 		3765B44B2258D3650015853D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765B44A2258D3650015853D /* AppDelegate.swift */; };
 		3765B4502258D3650015853D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3765B44E2258D3650015853D /* Main.storyboard */; };
 		3765B4552258D3680015853D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3765B4542258D3680015853D /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		372C14DD225A762D00CAEB7B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		372C14DF225A80EE00CAEB7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		372C14EB225A977D00CAEB7B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		372C14ED225B8C6D00CAEB7B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		372C14EF225B8C7D00CAEB7B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3765B4472258D3650015853D /* ToDoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3765B44A2258D3650015853D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3765B44F2258D3650015853D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,10 +58,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		372C14F1225B8C9A00CAEB7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				372C14EF225B8C7D00CAEB7B /* User.swift */,
+				372C14ED225B8C6D00CAEB7B /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3765B43E2258D3650015853D = {
 			isa = PBXGroup;
 			children = (
 				372C14DD225A762D00CAEB7B /* .gitignore */,
+				372C14F1225B8C9A00CAEB7B /* Model */,
 				3765B4492258D3650015853D /* ToDoFire */,
 				3765B4482258D3650015853D /* Products */,
 				65E15EF4B2B24E56E30C0169 /* Pods */,
@@ -241,8 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372C14EE225B8C6D00CAEB7B /* Task.swift in Sources */,
 				372C14EC225A977D00CAEB7B /* RegisterViewController.swift in Sources */,
 				3765B4602258F8F20015853D /* TasksViewController.swift in Sources */,
+				372C14F0225B8C7D00CAEB7B /* User.swift in Sources */,
 				3765B44B2258D3650015853D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

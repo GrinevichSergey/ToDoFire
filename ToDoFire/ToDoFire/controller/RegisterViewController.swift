@@ -16,6 +16,16 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        emailText.text = ""
+        passwordText.text = ""
+
+    }
+    
+
+    
     func warningLabelText(warningLAbel text: String )
     {
         warnLabel.text = text
@@ -57,13 +67,20 @@ class RegisterViewController: UIViewController {
             return
         }
         
-        Auth.auth().createUser(withEmail: email, password: password) { [weak self]  (user, error) in
+        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
             if error == nil
             {
                 if user != nil
                 {
-                     self?.performSegue(withIdentifier: "taskssegue", sender: nil)
+                    
+                } else
+                {
+                    print("user is not created")
                 }
+            }
+            else
+            {
+                print(error!.localizedDescription)
             }
         }
     }
@@ -76,6 +93,13 @@ class RegisterViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(RegisterViewController.keyboardDidHide), name: UIResponder.keyboardDidHideNotification, object: nil)
 
         warnLabel.alpha = 0
+        
+        Auth.auth().addStateDidChangeListener { [weak self] (auth, user) in
+            if user != nil
+            {
+                self?.performSegue(withIdentifier: "taskssegue", sender: nil)
+            }
+        }
     }
     
     //клава
